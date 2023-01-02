@@ -1,0 +1,39 @@
+* {
+        padding: 0;
+        margin: 0;
+}
+
+/* @media only screen and (min-width:425px){} */
+
+.parent {
+        width: 40px;
+        height: 40px;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 7px;
+        margin-left: auto;
+}
+
+.divider {
+        border: 1px solid rgb(255, 255, 255);
+        margin: 9px;
+}
+
+.purple {
+        background-color: purple;
+}
+
+.logo {
+        margin-top: -25px;
+}
+
+.nav {
+        display: none;
+}
+
+
+/* tablet resposnive */
+@media only screen and (min-width:768px) {}
+
+@media only screen and (min-width:1024px) {}
+
+@media only screen and (min-width:1440px) {}
