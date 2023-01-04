@@ -23,6 +23,7 @@
 
 .purple {
         background-color: purple;
+        padding-bottom: 80px;
 }
 
 .logo {
@@ -45,10 +46,60 @@
 
 }
 
+#work {
+        background-color: rgb(210, 100, 16);
+        color: white;
+        border-radius: 5px;
+        text-align: center;
+        padding: 13px;
+        font-size: 10px;
+        margin-left: 38%;
+        box-shadow: 3px 3px 4px red;
+        text-align: center;
+}
+
+.green {
+        background-color: rgb(5, 238, 242);
+        padding-bottom: 60px;
+}
+
+h3 {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+hr {
+        width: 40px;
+        margin-left: 45%;
+}
+
+p {
+        text-align: center;
+        padding-top: 10px;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 10px;
+        padding-bottom: 20px;
+}
+
 
 
 /* tablet resposnive */
-@media only screen and (min-width:768px) {}
+@media only screen and (min-width:768px) {
+        #work {
+                margin-left: 42%;
+                text-align: center;
+
+        }
+
+        h2 {
+                font-size: 30px;
+        }
+
+}
 
 /* laptop screen */
 @media only screen and (min-width:1024px) {
@@ -57,7 +108,6 @@
                 padding-left: 25px;
                 display: inline;
         }
-
 
         .parent {
                 display: none;
@@ -81,18 +131,56 @@
                 font-weight: bold;
                 text-transform: uppercase;
                 margin: 20px;
-
-
         }
 
         .hi {
                 font-size: 28px;
-                padding-top: 70px
+                padding-top: 70px;
         }
+
+        #work {
+                margin-left: 45%;
+                text-align: center;
+
+        }
+
+        hr {
+                width: 50px;
+                margin-left: 47%;
+        }
+
+        h2 {
+                font-size: 35px;
+                padding-top: 30px;
+        }
+
+        p {
+                font-size: 15px;
+                padding-bottom: 50px;
+        }
+
 }
 
 @media only screen and (min-width:1440px) {
         .nav {
-                padding-left: 45%;
+                display: inline;
+                list-style-type: none;
+                padding-left: 50%;
         }
+
+        #work {
+                margin-left: 46%;
+                text-align: center;
+
+        }
+
+}
+
+@media only screen and (min-width:2560px) {
+        .nav {
+                display: inline;
+                list-style-type: none;
+                padding-right: 30%;
+        }
+
 }
