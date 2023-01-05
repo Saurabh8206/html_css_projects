@@ -85,6 +85,15 @@ p {
         padding-bottom: 20px;
 }
 
+#greenul {
+        list-style-type: none;
+}
+
+.greenimg {
+        padding-top: 10px;
+        padding-left: 40%;
+        width: 60px;
+}
 
 
 /* tablet resposnive */
@@ -99,6 +108,16 @@ p {
                 font-size: 30px;
         }
 
+        .greenli1 {
+                display: inline-block;
+                padding: 20px;
+        }
+
+
+        .greenli2 {
+                display: inline-block;
+                padding: 15px;
+        }
 }
 
 /* laptop screen */
@@ -159,6 +178,16 @@ p {
                 padding-bottom: 50px;
         }
 
+        .greenimg {
+                padding-top: 10px;
+                padding-left: 30%;
+                width: 60px;
+        }
+
+        #greenul li {
+                display: inline-block;
+                width: 21%;
+        }
 }
 
 @media only screen and (min-width:1440px) {
@@ -173,6 +202,11 @@ p {
                 text-align: center;
 
         }
+
+        #greenul {
+                list-style-type: none;
+        }
+
 
 }
 
