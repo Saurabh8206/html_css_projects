@@ -1,0 +1,75 @@
+ 
+<!DOCTYPE html>
+
+<html>
+	
+    <head>
+    	 <title>Title Name will go here</title>
+    
+	<style>
+#animated-div{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	font-size: 16px;
+	padding: 10px;
+	text-align: center;
+	position: relative;
+	/* animation: name duration timing-function delay iteration-count direction fill-mode; */
+animation:xyz 3s linear 2s infinite alternate
+
+}
+@keyframes xyz{
+	0%{left:0}
+	20%{left:200px;background-color: aqua;}
+	40%{left:400px;background-color: yellow;border-radius: 50%;}
+	60%{left:600px;background-color: black;}
+	80%{left:800px;background-color: greenyellow;}
+	100%{left:0px; background-color: bisque;}
+}
+			/*
+			animation-name: ; 
+			animation-delay: ; (ms, sec) (1000=1s)
+
+			animation-timing: (ms, sec)
+			animation-iteration-count: infinite/number;
+
+			
+
+			animation-direction: normal|reverse|alternate|alternate-reverse;
+
+			animation-timing-funtion:  
+			ease[start slow then fast then end slowly]
+			ease-in[slow start]
+			ease-out[slow end]
+			ease-in-out[slow start and end]
+			linear[same speed from start to end]
+			cubic-bezier[lets you define your value from 0-1]
+
+			shorthand property:
+			animation: animation-name ,animation-timing, animation-iteration-count, animation-timing-function,
+			animation-direction,
+			animation-delay;
+
+			second way of writing animation: ;
+			@keyframes animation-name: ;
+			from{property};
+			to{property}
+
+			*/
+		
+		
+		 
+	
+
+	</style>
+    </head>
+    <body>
+
+    	<div id="animated-div">
+			CSS
+		</div>
+
+    </body>
+    
+</html>

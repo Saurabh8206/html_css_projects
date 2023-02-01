@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #animated-div {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            font-size: 16px;
+            padding: 10px;
+            text-align: center;
+            position: relative;
+            animation: xyz 3s linear 2s infinite alternate;
+        }
+
+        @keyframes xyz {
+            0% {
+                left: 0;
+            }
+
+            20% {
+                left: 200px;
+                background-color: aqua;
+            }
+
+            40% {
+                left: 400px;
+                background-color: aqua;
+                border-radius: 50%;
+            }
+
+            60% {
+                left: 600px;
+                background-color: aqua;
+            }
+
+            80% {
+                left: 800px;
+                background-color: aqua;
+            }
+
+            100% {
+                left: 1000px;
+                background-color: aqua;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+<div id="animated">sdfa</div>
+</body>
+
+</html>
