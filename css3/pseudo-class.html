@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #one:hover p,
+    a {
+        color: royalblue;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    h2::after {
+        content: 'Read This';
+        color: green;
+    }
+
+    h2::before {
+
+        content: 'watch this';
+    }
+
+    li {
+        height: 10px;
+        width: 10px;
+        border-radius: 50%;
+        border: 1px solid black;
+        padding: 10px;
+        margin: 10px;
+
+    }
+
+    li:first-child {
+        background-color: red;
+
+    }
+
+    li:last-child {
+        background-color: green;
+    }
+
+    li:nth-child(3) {
+        background-color: black;
+    }
+
+    li:nth-child(2){
+        background-color: grey;
+    }
+</style>
+
+<body>
+    <div id="one">
+        <p>Lorem ipsum dolor sit amet.</p>
+        <a href="">Read this</a>
+        <!-- <a href="">Open this</a> -->
+    </div>
+
+    <h2>Hii this is pseudo class example</h2>
+    <ul>
+        <li>
+
+        </li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</body>
+
+</html>
