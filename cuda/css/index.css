@@ -2,9 +2,12 @@
         padding: 0;
         margin: 0;
 }
+
+/* Hide scrollbars */
 body {
-        overflow: hidden; /* Hide scrollbars */
-      }
+        overflow-x: hidden;
+}
+
 
 /* @media only screen and (min-width:425px){} */
 
@@ -123,27 +126,30 @@ p {
         padding-left: 22%;
 }
 
-#whiteul{
+#whiteul {
         list-style-type: none;
         /* padding-top: 25px; */
-    }
-    #whiteul li{
+}
+
+#whiteul li {
         position: relative;
         margin-left: 30%;
         margin-bottom: 20px;
-    }
-    #whiteul li span{
+}
+
+#whiteul li span {
         position: absolute;
         left: 55px;
         top: 60px;
         font-size: 40px;
         font-weight: bold;
-    }
-    #whiteul li h3{
-    text-align: center;
-    margin-left: -35%;
-    }
-    
+}
+
+#whiteul li h3 {
+        text-align: center;
+        margin-left: -35%;
+}
+
 
 /* tablet resposnive */
 @media only screen and (min-width:768px) {
@@ -178,39 +184,39 @@ p {
                 display: inline-block;
                 padding: 15px;
         }
-        .whiteul li{
+
+        .whiteul li {
                 margin-left: 10%;
-            }
-            #whiteul li h3{
+        }
+
+        #whiteul li h3 {
                 text-align: center;
-                margin-left:-70%
-        
-            }
-            .whiteli3{
-                left:-112px
-            }
-            .whiteli1{
+                margin-left: -70%
+        }
+
+        .whiteli3 {
+                left: -112px
+        }
+
+        .whiteli1 {
                 position: absolute;
-                left:250px;
-                top:-230px
-        
-            }
-            .whiteli4{
-                left:-112px;
-                top:-210px;
-            }
-            .whiteli2{
+                left: 250px;
+                top: -230px
+        }
+
+        .whiteli4 {
+                left: -112px;
+                top: -210px;
+        }
+
+        .whiteli2 {
                 position: absolute;
-                left:250px;
-                top:-450px;
-        
-        
-            }
-           
-            body {
-                overflow: hidden; /* Hide scrollbars */
-              }
-            
+                left: 250px;
+                top: -450px;
+
+
+        }
+
 }
 
 /* laptop screen */
@@ -221,9 +227,9 @@ p {
                 display: inline;
         }
 
-        .parent {
+        /* .parent {
                 display: none;
-        }
+        } */
 
         .nav {
                 display: inline;
@@ -297,9 +303,9 @@ p {
                 padding-left: 5%;
         }
 
-        .whiteul li{
+        .whiteul li {
                 margin-left: 5%;
-            }
+        }
 }
 
 @media only screen and (min-width:1440px) {
