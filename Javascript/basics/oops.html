@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2 id="book"></h2>
+    <script>
+        class Book {
+            constructor(name, description) {
+                this.name = name;
+                this.description = description;
+            }
+        }
+
+        let add = new Book("The room 105", "Thrilled story about Mark Witten");
+        document.getElementById("book").innerHTML = "Book name: " + add.name +"<br>" + "    Description:" + add.description
+
+    </script>
+</body>
+
+</html>

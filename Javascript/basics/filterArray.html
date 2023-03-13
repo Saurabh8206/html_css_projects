@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        const arr = [10, 20, 30, 40, 50, 60, 99]
+        document.write(arr + " : Array <br>")
+        // Filter Method
+        // var b = arr.filter(a)
+        // document.write(b)
+
+        // function a(c) {
+        //     return c >= 20
+        // }
+        // Map Method
+        // var maper = arr.map(func)
+        // document.write(maper)
+        // function func(d) {
+        //     return d * 10;
+        // }
+        // Destructuring array
+        var [a, b, c] = arr
+        document.write(a)
+        document.write(b)
+        document.write(c)
+
+        // Swapping variable
+        var x = 2;
+        var y = 5;
+
+        var [x, y] = [y, x]
+        document.write("x value is: " + x + "<br>")
+        document.write("y value is: " + y + "<br>")
+
+
+
+        // Destructuring array using default value 
+        var p, q;
+        [c = 90, d = 40] = [600]
+        console.log(p)
+        console.log(q)
+
+
+        // Access the value from function
+        function access() {
+            return [32, 45, 67]
+        }
+
+
+        var [t, v, w] = Array();
+        console.log(v);
+        console.log(t);
+        console.log(w);
+    </script>
+</body>
+
+</html>
