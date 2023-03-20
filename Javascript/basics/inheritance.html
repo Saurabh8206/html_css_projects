@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="demo"></h1>
+    <script>
+        class student {
+            constructor(name, division) {
+                this.name = name;
+                this.division = division;
+            }
+
+            details() { return "My details are My name is " + this.name + " & I belong to " + this.division +" Division"}
+        }
+
+
+        class teacher extends student {
+            constructor(name, division, subject) {
+                super(name, division);
+                this.subject = subject;
+            }
+
+            present() {
+                return this.details() + " with SUbject " + this.subject
+            }
+        }
+
+        var studentDetails = new teacher("sahil", "A", "English");
+        document.getElementById("demo").innerHTML = studentDetails.present();
+    </script>
+</body>
+
+</html>
